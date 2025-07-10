@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos</title>
+  <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+     <header class="header-contacto">
+    <a href="index.html">
+      <img src="/img/codeberg.svg" alt="Logo de la empresa" class="logo-contacto" />
+    </a>
+  </header>
+  <section class="contacto" id="contacto">
+    <div class="contacto-container">
+      <div class="contacto-info">
+        <h1 class="contacto-titulo">Contáctanos</h1>
+        <p class="contacto-descripcion">
+          Queremos conocer más sobre tu proyecto. Completa el formulario y nos pondremos en contacto contigo a la brevedad.
+        </p>
+        <img src="/img/contacto.jpg" alt="Contacto" class="contacto-img">
+      </div>
+      <form class="contacto-form">
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingresa tu nombre" required>
+
+        <label>Correo</label>
+        <input type="email" placeholder="Ingresa tu correo" required>
+
+        <label>Mensaje</label>
+        <textarea rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+        <label>Industria</label>
+        <div class="tags">
+          <span>Fintech</span>
+          <span>Viajes</span>
+          <span>Educación</span>
+          <span>Retail</span>
+          <span>Otro</span>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
