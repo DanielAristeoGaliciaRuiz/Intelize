@@ -1,4 +1,4 @@
-/* --- Variables base --- */
+/*Variables base*/
 :root {
   --primary-color: #4284f6fa;
   --primary-gradient: linear-gradient(to right, #3a7afe, #1f52ff);
@@ -26,11 +26,9 @@ body {
   line-height: 1.6;
 }
 
-/* --- Reutilizables --- */
+/* Estilos generales */
 .container {
   width: 65%;
-  /* background-color: #1f52ff; */
-  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -92,16 +90,19 @@ img {
 
 /* --- NAVBAR --- */
 /* Estado base */
+
 .navbar {
   background-color: transparent;
   padding: 1.5rem 0;
+  width: 65%;
+  margin: auto;
   transition: all 0.7s ease;
   z-index: 100;
 }
+
 .container-navbar{
-      width: 60%;
+      width: 100%;
   margin: 0 auto;
-    /* border-style: solid; */
 }
 
 /* Estado con scroll */
